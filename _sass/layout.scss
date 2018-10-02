@@ -65,6 +65,10 @@ section {
 		-ms-transform: skewY(-$section-rotation);
 		transform: skewY(-$section-rotation);
 
+		&.small {
+			padding: 120px 0;
+		}
+
 		> div {
 			-webkit-transform: skewY($section-rotation);
 			-moz-transform: skewY($section-rotation);
@@ -100,7 +104,8 @@ section {
 	}
 
 	&.alternate {
-		background: #eee;
+		p {color: #000;}
+		background: $tertiary-brand-color;
 	}
 }
 
@@ -238,7 +243,7 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: #222;
 
 	&,
 	p {

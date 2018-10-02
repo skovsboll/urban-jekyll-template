@@ -1,9 +1,9 @@
 links:
-- name: Portfolio
-  link: /portfolio/
+- name: Hjem
+  link: /
 - name: Blog
   link: /blog/
-- name: About
-  link: /about/
-- name: Contact
+- name: Mød os
+  link: "#about"
+- name: Kontakt
   link: /contact/

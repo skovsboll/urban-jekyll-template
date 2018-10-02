@@ -2,27 +2,17 @@
   links:
     - name: Home
       link: /
-    - name: Portfolio
-      link: /portfolio/
     - name: Blog
       link: /blog/
-    - name: About
+    - name: Mød os
       link: /about/
-    - name: Contact
+    - name: Kontakt
       link: /contact/
 - title: Social
   links:
-    - name: Facebook
-      link:
-      social_icon: Facebook
-      new_window: true
     - name: Twitter
       link:
       social_icon: Twitter
-      new_window: true
-    - name: Google+
-      link:
-      social_icon: Google Plus
       new_window: true
     - name: LinkedIn
       link:
