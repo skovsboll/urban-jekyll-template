@@ -31,19 +31,24 @@ If you want to add more options, there's a rake task that will download the full
 Start by adding a couple of gems to your `Gemfile`:
 
 ```ruby
+
 gem 'bcrypt'
 gem 'bloomed'
+
 ```
 
 The `User` model should hold a username and a password digest (a bcrypted hash).
 
 ```ruby
+
 rails g model User username:string password_digest:string
+
 ```
 
 Next, you'll need a custom validator that will invoke the Bloomed gem.
 
 ```ruby
+
 class UncompromisedValidator < ActiveModel::EachValidator
   def validate_each(record, attribute, value)
     if Rails.application.config.bloomed.pwned? value
@@ -54,21 +59,26 @@ class UncompromisedValidator < ActiveModel::EachValidator
     end
   end
 end
+
 ```
 
 Inside your `config/application.rb` you'll need to prepare the shared instance of a `Bloomed::PW` class. It needs to be shared because it fills some space in memory with the bloom filter that the validator uses for lookups. Even if the memory size is significantly reduced with a bloom filter, loading does take some time. You only want to load this data once.
 
 ```ruby
+
 config.bloomed = Bloomed::PW.new
+
 ```
 
 Finally, modify `models/user.rb` to validate the password using your custom validator.
 
 ```ruby
+
 class User < ApplicationRecord
   has_secure_password
   validates :password, uncompromised: true
 end
+
 ```
 
 That's all the code you need to check every password entry against the top 100.000 breached passwords with a false positive probability of 0.001, taking only 194 kb of memory to do so.
@@ -76,14 +86,19 @@ That's all the code you need to check every password entry against the top 100.0
 Let's try it out. Start a `rails console`.
 
 ```ruby
+
 irb(main):001:0> u=User.create username: 'safe-user', password: 'correcthorsebatterystaple'
    (0.1ms)  begin transaction
-  User Create (0.5ms)  INSERT INTO "users" ("username", "password_digest", "created_at",
-    "updated_at") VALUES (?, ?, ?, ?)  [["username", "safe-user"], ["password_digest",
-      "$2a$10$wIS7wVyjpXoVcAy6DTKP3O52.JReSEc.sDlatvzpE.gVISNvO7vDa"], ["created_at", "2018-09-29 21:29:09.993106"],
+  User Create (0.5ms)  INSERT INTO "users" ("username", "password_digest",
+    "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["username",
+      "safe-user"], ["password_digest",
+      "$2a$10$wIS7wVyjpXoVcAy6DTKP3O52.JReSEc.sDlatvzpE.gVISNvO7vDa"],
+      ["created_at", "2018-09-29 21:29:09.993106"],
       ["updated_at", "2018-09-29 21:29:09.993106"]]
    (0.9ms)  commit transaction
-=> #<User id: 2, username: "safe-user", password_digest: "$2a$10$wIS7wVyjpXoVcAy6DTKP3O52.JReSEc.sDlatvzpE.g...", created_at: "2018-09-29 21:29:09", updated_at: "2018-09-29 21:29:09">
+=> <User id: 2, username: "safe-user", password_digest:
+   "$2a$10$wIS7wVyjpXoVcAy6DTKP3O52.JReSEc.sDlatvzpE.g...",
+   created_at: "2018-09-29 21:29:09", updated_at: "2018-09-29 21:29:09">
 
 ```
 
@@ -91,12 +106,17 @@ So that went well using `correcthorsebatterystaple`.
 Let's try again, this time using `password123`.
 
 ```ruby
+
 irb(main):002:0> u=User.create username: 'unsafe-user', password: 'password123'
    (0.0ms)  begin transaction
    (0.0ms)  rollback transaction
 
 irb(main):003:0> u.errors.messages
-=> {:password=>["has been compromised in an earlier password breach. To protect your data, we don't allow using passwords that might already be in the hands of people with bad intentions. This is a good time to choose a password that you have never used before."]}
+=> {:password=>["has been compromised in an earlier password breach.
+  To protect your data, we don't allow using passwords that might
+  already be in the hands of people with bad intentions. This is a
+  good time to choose a password that you have never used before."]}
+
 ```
 
 There you go!
