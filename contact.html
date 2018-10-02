@@ -1,45 +1,20 @@
 ---
-title: Contact
-heading: Get in touch today
-subtitle: We'd love to help your business.
+title: Kontakt
+heading:
+subtitle: Lad os tage en uformel snak om din idé
 map:
   latitude: 56.036804
   longitude: 9.921939
-  address: "Mågevej 20, 8660 Skanderborg"
+  address: "Mågevej 20, 8660 Skanderborg, T: +45 29 90 32 00"
   zoom: 13
 ---
 
-<section class="diagonal">
-	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="support@example.com" />
-			<input type="text" name="_gotcha" style="display: none;" />
-
-			<div class="halves">
-				<div>
-					<label for="name">Fornavn</label>
-					<input type="text" name="first-name" id="first-name" placeholder="John" />
-				</div>
-
-				<div>
-					<label for="name">Efternavn</label>
-					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
-				</div>
-			</div>
-
-			<label for="email">Email</label>
-			<input type="email" name="email" id="email" placeholder="john@example.com" required />
-
-			<label for="message">Besked</label>
-			<textarea name="message" id="message" placeholder="Skriv her"></textarea>
-
-			<input type="submit" value="Send Besked" />
-		</form>
-	</div>
-</section>
-
 <section class="diagonal map">
-	<div id="gmap_canvas"></div>
+	<div>
+    <a href="https://goo.gl/maps/7KqEkJFB8SG2" target="_blank">
+    <img src="{{ site.baseurl }}/images/map-maagevej-20.png" />
+  </a>
+  </div>
 </section>
 
 <section class="diagonal">
@@ -54,32 +29,3 @@ map:
 		</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-	window.mapData = {{ page.map | jsonify }};
-
-	function initMap() {
-		var myOptions = {
-			scrollwheel: false,
-			draggable: false,
-			panControl: false,
-			disableDefaultUI: true,
-			styles: [{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"color":"#f7f1df"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"color":"#d0e3b4"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi.business","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi.medical","elementType":"geometry","stylers":[{"color":"#fbd3da"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#bde6ab"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffe15f"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efd151"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"black"}]},{"featureType":"transit.station.airport","elementType":"geometry.fill","stylers":[{"color":"#cfb2db"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#a2daf2"}]}],
-			zoom: window.mapData.zoom,
-			maxZoom: window.mapData.zoom,
-			minZoom: window.mapData.zoom,
-			center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-			mapTypeId: google.maps.MapTypeId.ROADMAP
-		};
-		map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
-		marker = new google.maps.Marker({
-			map: map,
-			position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-		});
-
-		google.maps.event.addDomListener(window, "resize", function () {
-			map.setCenter(myOptions.center);
-		});
-	}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

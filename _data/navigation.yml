@@ -1,9 +1,9 @@
 links:
 - name: Hjem
   link: /
-- name: Blog
+- name: Blog (engelsk)
   link: /blog/
-- name: Mød os
-  link: "#about"
+- name: Mød Søren
+  link: "/#about"
 - name: Kontakt
   link: /contact/

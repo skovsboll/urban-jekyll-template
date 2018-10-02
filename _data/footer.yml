@@ -1,20 +1,20 @@
-- title: Pages
+- title: Indhold
   links:
     - name: Home
       link: /
-    - name: Blog
+    - name: Blog (engelsk)
       link: /blog/
-    - name: Mød os
+    - name: Mød Søren
       link: /about/
     - name: Kontakt
       link: /contact/
 - title: Social
   links:
     - name: Twitter
-      link:
+      link: https://twitter.com/skovsboll
       social_icon: Twitter
       new_window: true
     - name: LinkedIn
-      link:
+      link: https://linkedin.com/in/skovsboll
       social_icon: LinkedIn
       new_window: true
