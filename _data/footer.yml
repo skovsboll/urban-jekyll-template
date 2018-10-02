@@ -5,7 +5,7 @@
     - name: Blog (engelsk)
       link: /blog/
     - name: Mød Søren
-      link: /about/
+      link: "/#about"
     - name: Kontakt
       link: /contact/
 - title: Social
