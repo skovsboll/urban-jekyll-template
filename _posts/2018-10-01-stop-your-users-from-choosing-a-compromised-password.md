@@ -3,6 +3,7 @@ layout: post
 title: "Stop your users from choosing a compromised password - A Rails example"
 date: 2018-10-01 01:36:23
 categories: "Ruby security bloomed"
+show_comments: true
 ---
 You run a website. Users sign up. They do so by entering their email address and a password. Well, not any password. A subset will enter `password123`, the same password they use on every website. Even though you bcrypt the password before storing it in your db, it's still easy for an attacker to lookup the credentials in one of the many lists of credentials previously breached.
 
