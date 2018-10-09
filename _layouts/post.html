@@ -26,19 +26,6 @@ layout: page
 	</section>
 {% endif %}
 
-<section class="diagonal alternate">
-	<div class="text-container">
-		<h2>Next post</h2>
-		<div class="blog-post">
-			{% if page.next %}
-				{% include post-summary.html post=page.next %}
-			{% elsif page.previous %}
-				{% include post-summary.html post=page.previous %}
-			{% endif %}
-		</div>
-	</div>
-</section>
-
 {% if site.disqus_shortname and page.show_comments %}
 	<section class="diagonal">
 		<div class="container">
@@ -65,3 +52,16 @@ layout: page
 		</div>
 	</section>
 {% endif %}
+
+<section class="diagonal alternate">
+	<div class="text-container">
+		<h2>Next post</h2>
+		<div class="blog-post">
+			{% if page.next %}
+				{% include post-summary.html post=page.next %}
+			{% elsif page.previous %}
+				{% include post-summary.html post=page.previous %}
+			{% endif %}
+		</div>
+	</div>
+</section>
