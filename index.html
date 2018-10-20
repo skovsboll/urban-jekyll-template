@@ -26,7 +26,7 @@ title: weroes
 		<div>
 			<ul class="image-grid">
 				{% for client in site.clients limit: 4 %}
-					<li><img src="{% include relative-src.html src=client.image_path %}"></li>
+					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}"></a></li>
 				{% endfor %}
 			</ul>
 		</div>
