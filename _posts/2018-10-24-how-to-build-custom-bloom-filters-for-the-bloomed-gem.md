@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to build custom bloom filters for the Bloomed gem"
-date: 2018-10-24 9:00:00
+date: 2018-10-24 00:00:00
 categories: "Ruby security bloomed"
 show_comments: true
 ---
