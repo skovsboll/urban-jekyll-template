@@ -124,3 +124,5 @@ There you go!
 he world's most used password has been detected. At least no one registering with your site will ever again be able to jeopardize their account and your site by using a password that is already breached.
 
 Next time I'll show you how to use the `rake seed` task to generate other combinations of *top N passwords* and *false positive probability* and ship the new generated bloom filter with your app.
+
+Cross posted to [medium.com](https://medium.com/@Skovsboll/stop-your-users-from-choosing-a-compromised-password-a-rails-example-3b085e604ce7)

@@ -87,3 +87,5 @@ You can package this newly generated (47kb) file, `pwned_top_20000_one_in_10000.
 When you instantiate your `Bloomed::PW` on your server, remember to use the `cache_dir` argument again, pointing at the place where you copied `pwned_top_20000_one_in_10000.msgpk`.
 
 With this procedure, you can create a custom bloomed filter with the accuracy you want, deploy the filter with your app and make sure that your users do not pick an insecure password.
+
+Cross posted to [medium.com](https://medium.com/@Skovsboll/how-to-build-custom-bloom-filters-for-the-bloomed-gem-bd6c881fd4d3)
