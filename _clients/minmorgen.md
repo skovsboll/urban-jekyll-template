@@ -8,7 +8,15 @@ image_path: /images/clients/minmorgen.png
 
 Velkommen til app’en der hjælper dit barn til en God Morgen.
 
-![Min Morgen](/images/minmorgen/mm_screenshot_x.jpg){:style="height:300px"}
+<div id='ibb-widget-root-878297637'></div><script>(function(t,e,i,d){var o=t.getElementById(i),n=t.createElement(e);o.style.height=90;o.style.width=728;o.style.display='inline-block';n.id='ibb-widget',n.setAttribute('src',('https:'===t.location.protocol?'https://':'http://')+d),n.setAttribute('width','728'),n.setAttribute('height','90'),n.setAttribute('frameborder','0'),n.setAttribute('scrolling','no'),o.appendChild(n)})(document,'iframe','ibb-widget-root-878297637',"banners.itunes.apple.com/banner.html?partnerId=&aId=&bt=catalog&t=catalog_white&id=878297637&c=dk&l=da-DK&w=728&h=90&store=apps");</script>
+
+---
+
+![Min Morgen](/images/minmorgen/mm1.png){:style="height:300px"}
+![Min Morgen](/images/minmorgen/mm2.png){:style="height:300px"}
+![Min Morgen](/images/minmorgen/mm3.png){:style="height:300px"}
+![Min Morgen](/images/minmorgen/mm4.png){:style="height:300px"}
+
 
 ### Privatlivspolitik
 
