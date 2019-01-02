@@ -2,18 +2,18 @@ footer {
 	@extend section;
 	padding: 100px 0 50px 0;
 	position: relative;
-	background: $html-background-color;
-	color: #fff;
+	background: $brand-color;
+	color: $rich-black-color;
 
 	&,
 	a {
-		color: #999;
+		color: $secondary-brand-color;
 	}
 
 	h2 {
 		font-size: 1.4em;
 		margin: 30px 0;
-		color: #ccc;
+		color: $secondary-brand-color;
 	}
 
 	.footer-columns {
@@ -26,7 +26,7 @@ footer {
 		text-decoration: none;
 
 		&:hover {
-			color: #fff;
+			color: $rich-black-color;
 		}
 	}
 
@@ -53,7 +53,7 @@ footer {
 
 		a {
 			svg {
-				fill: #999;
+				fill: $secondary-brand-color;
 				margin-right: 10px;
 				transition: fill 0.2s ease;
 				vertical-align: middle;
@@ -67,7 +67,7 @@ footer {
 				text-decoration: none;
 
 				svg {
-					fill: #fff;
+					fill: $secondary-brand-color;
 				}
 			}
 		}

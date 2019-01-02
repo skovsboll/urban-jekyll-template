@@ -4,17 +4,16 @@
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
-$sap-green-color: #41851A;
-$vegas-gold-color: #C8AD55;
-$deep-turquise-color: #136F63;
+$fav-blue-color: #40597D;
+$vegas-gold-color: #D6A753;
 $rich-black-color: #000F08;
-$baby-powder-color: #FDFFFC;
+$smokey-white-color: #F8F8F8;
 
-$brand-color: $sap-green-color;
+$brand-color: $fav-blue-color;
 $secondary-brand-color: $vegas-gold-color;
 $tertiary-brand-color: $vegas-gold-color;
 
-$html-background-color: $rich-black-color;
+$html-background-color: $smokey-white-color;
 
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 

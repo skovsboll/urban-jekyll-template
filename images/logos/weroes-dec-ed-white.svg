@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1217px" height="331px" viewBox="0 0 1217 331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>weroes-dec-ed-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="94.0069804%" y1="1.67902962%" x2="10.6178825%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#701C31" offset="0%"></stop>
+            <stop stop-color="#310A14" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="7.71815324%" y1="50%" x2="75.0390371%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#BD546E" offset="0%"></stop>
+            <stop stop-color="#961837" offset="100%"></stop>
+        </linearGradient>
+        <path d="M51.7317234,57 C58.0825224,57 66.2028269,57 76.0926368,57 C78.3328978,29.2476812 80.0873368,10.2476812 81.3559536,1.42108547e-13 C73.7516141,1.97352222 62.4950837,3.93243162 47.5863626,5.87672819 C49.064527,26.934867 50.4463139,43.9759576 51.7317234,57 Z" id="path-3"></path>
+        <filter x="-165.1%" y="-107.8%" width="437.0%" height="303.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="10.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1314.000000, -2240.000000)">
+            <g id="Logo-C" transform="translate(1036.000000, 2045.000000)">
+                <rect id="Backdrop" fill="#961837" x="0" y="0" width="1624" height="661"></rect>
+                <g id="LOGO" transform="translate(319.000000, 226.000000)">
+                    <text id="eroes" font-family="Superclarendon-Bold, Superclarendon" font-size="238" font-weight="bold" letter-spacing="26.3899994" fill="#FFFFFF">
+                        <tspan x="289.749001" y="253">eroe</tspan>
+                        <tspan x="998.638999" y="253">s</tspan>
+                    </text>
+                    <g id="Buildings">
+                        <g id="Building-A" transform="translate(0.656000, 52.000000)">
+                            <path d="M0.844,12.5 C-8.156,97 57.804,203 57.804,203 L87.166,203 C87.166,203 76.344,77 96.264,0 C72.554,4.5 35.0761474,4.5 0.844,12.5 Z" id="Front-A" fill="#FFFFFF"></path>
+                            <path d="M96.264,0 C103.844,7.5 115.287,8.286 115.287,8.286 L92.542,200.1 L87.166,203 C83.3516629,192.878077 76.344,70.5 96.264,0 Z" id="Side-A" fill="url(#linearGradient-1)"></path>
+                        </g>
+                        <g id="Building-B" transform="translate(90.000000, 114.000000)">
+                            <path d="M20.196,140.5 C20.196,140.5 -5.804,75 1.196,28.5 C20.196,40 61.696,29 88.196,17 C69.6714079,55 53.696,140.5 53.696,140.5 L20.196,140.5 Z" id="Front-B" fill="#FFFFFF"></path>
+                            <path d="M53.696,140.5 L63.696,135 L102.696,0 C102.696,0 98.196,4.5 88.196,14.5 C67.5205269,60.7079528 53.696,140.5 53.696,140.5 Z" id="Side-B" fill="url(#linearGradient-1)"></path>
+                            <path d="M1.196,28.5 C10.696,23 20.196,14.5 20.196,14.5 L102.696,0.5 C102.696,0.5 91.696,13.5 86.196,19 C35.196,41 6.696,35 1.196,28.5 Z" id="Tag-B" fill="url(#linearGradient-2)"></path>
+                        </g>
+                        <g id="Building-C" transform="translate(172.913000, 0.000000)">
+                            <path d="M11.5278831,14.4693246 C21.0278831,8.96932456 43.2197305,4.94510124 53.2960153,0.975776674 L152.811121,14.4693246 C145.036028,19.9035291 135.850323,22.5256278 127.80162,25.6675861 C99.5361557,30.4360055 17.0278831,20.9693246 11.5278831,14.4693246 Z" id="Tag-C" fill="#6A2234"></path>
+                            <path d="M42.695,255 C45.808168,253.089887 49.136632,251.41787 52.6803921,249.983949 C84.0346122,145.464815 139.737109,54.5577935 152.748799,13.3368819 C143.728779,21.0557325 133.953291,21.0557325 126.48221,25.8606333 C80.6403245,99.7566947 42.695,255 42.695,255 Z" id="Side-C" fill="url(#linearGradient-1)"></path>
+                            <path d="M11.087,14 C11.087,14 99.3000995,29.3787752 127.8001,25.3787752 C84.8000995,97.3787752 42.695,255 42.695,255 C42.695,255 20.587,255 5.89,255 C-9.913,147 11.087,14 11.087,14 Z" id="Front-C" fill="#FFFFFF"></path>
+                        </g>
+                        <g id="Windows-C" transform="translate(179.000000, 22.000000)" fill="#000000" fill-opacity="0.304970562">
+                            <polygon id="Path-2" points="3.52847435 224 1.2329187 203 17.581206 204 16 224"></polygon>
+                            <polygon id="Path-2-Copy" points="1 198 1 166 23.2419025 168 19.3920798 199"></polygon>
+                            <polygon id="Path-3" points="23.1724142 224 36.608 224 40.3144384 205 26 204"></polygon>
+                            <polygon id="Path-3-Copy" points="27.8541671 199 41.4711269 200 49.4997472 171 32.1475224 169"></polygon>
+                            <polygon id="Path-3-Copy-2" points="33.7859046 162 51.4451652 164 65.5695906 118 42.3902809 116"></polygon>
+                            <polygon id="Path-3-Copy-3" points="1.196 160 23.1724142 161 30.8851495 115 0.196 113"></polygon>
+                            <polygon id="Path-3-Copy-5" points="1.80160343 104 31.7704786 106 40.3902809 58 5.44088312 53"></polygon>
+                            <polygon id="Path-3-Copy-7" points="6.44088312 44 42.4089407 49 50.394507 5.96193797 11.3592195 0.410245461"></polygon>
+                            <polygon id="Path-3-Copy-8" points="54.3564955 50 87.7822159 54 105.492957 9.88317 63.8210735 6.96193797"></polygon>
+                            <polygon id="Path-3-Copy-6" points="43.2409115 106 68.092977 109 82.1611881 62 53 59"></polygon>
+                        </g>
+                        <g id="Windows-B" transform="translate(94.000000, 144.000000)" fill="#000000" fill-opacity="0.304970562">
+                            <polygon id="Path-2" points="18.7213242 102 13.7648552 82 25.3729026 82 27.4239082 102"></polygon>
+                            <polygon id="Path-2-Copy" points="12.635805 78 4 48 22.656 48 25.2419025 78"></polygon>
+                            <polygon id="Path-3" points="32.2100993 102 44.5544838 102 46.7358824 82 30.2841126 82"></polygon>
+                            <polygon id="Path-3-Copy" points="29.9526178 78 47.7713565 78 53.912101 48 30.2841126 48"></polygon>
+                            <polygon id="Path-3-Copy-2" points="30.2841126 41 55.4369324 41 69.0975195 0.616709418 32.412592 9.33156569"></polygon>
+                            <path d="M2.92,41 L21.943,41 L21.4126945,10.9459026 C14.7004642,11.544866 7.74236605,10.3891083 0.538400184,7.4786295 C0.179466728,15.1375647 0.973333333,26.3113549 2.92,41 Z" id="Path-3-Copy-3"></path>
+                        </g>
+                        <g id="Windows-A" transform="translate(4.000000, 72.000000)">
+                            <polygon id="Path-2" fill-opacity="0.304970562" fill="#000000" points="54.3870985 174 43.2329187 154 57.2478462 154 61.5602485 174"></polygon>
+                            <polygon id="Path-2-Copy" fill-opacity="0.304970562" fill="#000000" points="40.8673007 150 28 120 50.2419025 120 57.1475224 150"></polygon>
+                            <polygon id="Path-3" fill-opacity="0.304970562" fill="#000000" points="64 174 78.0926368 174 75.874687 154 61.5602485 154"></polygon>
+                            <polygon id="Path-3-Copy" fill-opacity="0.304970562" fill="#000000" points="61.5602485 150 76.0926368 150 74.4997472 120 57.1475224 120"></polygon>
+                            <polygon id="Path-3-Copy-2" fill-opacity="0.304970562" fill="#000000" points="55.7037638 113 74.8784839 113 76.0926368 67 51.7317234 67"></polygon>
+                            <polygon id="Path-3-Copy-3" fill-opacity="0.304970562" fill="#000000" points="24.8524776 113 49.8036092 113 43.2329187 67 9.89654394 67"></polygon>
+                            <path d="M7.31825531,57 L41.1260519,57 L35.1412912,9.55217555 C18.3114597,11.1840585 6.91317831,12 0.946447059,12 C0.946447059,25.2412105 3.07038314,40.2412105 7.31825531,57 Z" id="Path-3-Copy-5" fill-opacity="0.304970562" fill="#000000"></path>
+                            <g id="Path-3-Copy-4">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                <use stroke="#979797" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

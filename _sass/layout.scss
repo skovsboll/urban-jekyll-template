@@ -38,7 +38,7 @@ header {
 }
 
 .content {
-	background: #fff;
+	background: $smokey-white-color;
 	padding: 1px 0 0 0;
 	position: relative;
 }
@@ -56,7 +56,7 @@ header {
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: $smokey-white-color;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -78,8 +78,8 @@ section {
 	}
 
 	&.hero {
-		color: #ffffff;
-		background: $brand-color;
+		color: $rich-black-color;
+		background: $smokey-white-color;
 		text-align: left;
 		margin-top: -100px;
 		padding-top: 250px;
@@ -94,11 +94,11 @@ section {
 
 		p {
 			font-size: 1.8rem;
-			color: #fff;
+			color: $rich-black-color;
 		}
 
 		a:not(.button) {
-			color: #ffffff;
+			color: $rich-black-color;
 			font-style: italic;
 		}
 	}
@@ -118,17 +118,16 @@ section {
 	cursor: pointer;
 	margin: 20px 0 0 0;
 	border: 1px solid #fff;
-	background: #fff;
+	color: #fff;
+	background: $secondary-brand-color;
 	text-decoration: none !important;
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.3);
 		color: #fff;
 	}
 
 	&:active {
 		opacity: 1;
-		background: rgba(255, 255, 255, 0.1);
 		color: #fff;
 		transform: translateY(1px);
 	}
