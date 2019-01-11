@@ -1,7 +1,7 @@
 ---
 title: Kontakt
 heading:
-subtitle: Lad os tage en uformel snak om din idé
+subtitle: Lad os tage en snak om din idé. <br/>Ring uforpligtende på <a href="callto:29903200">29 90 32 00</a>.
 map:
   latitude: 56.036804
   longitude: 9.921939
@@ -9,23 +9,23 @@ map:
   zoom: 13
 ---
 
-<section class="diagonal map">
-	<div>
-    <a href="https://goo.gl/maps/7KqEkJFB8SG2" target="_blank">
-    <img src="{{ site.baseurl }}/images/map-maagevej-20.png" />
-  </a>
+<section class="diagonal">
+  <div class="container halves aligned-top">
+    <div>
+      <h3>Addresse</h3>
+      <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+    </div>
+    <div>
+      <h3>Email</h3>
+      <p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+    </div>
   </div>
 </section>
 
-<section class="diagonal">
-	<div class="container halves aligned-top">
-		<div>
-			<h3>Addresse</h3>
-				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-		</div>
-		<div>
-			<h3>Email</h3>
-			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
-		</div>
-	</div>
+<section class="diagonal map">
+  <div>
+    <a href="https://goo.gl/maps/7KqEkJFB8SG2" target="_blank">
+      <img src="{{ site.baseurl }}/images/map-maagevej-20.png" />
+    </a>
+  </div>
 </section>

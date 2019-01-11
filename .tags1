@@ -4,6 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-section.map	/Users/soren/weroes/urban-jekyll-template/_sass/contact.scss	/^section.map {$/;"	function	line:1
-img	/Users/soren/weroes/urban-jekyll-template/_sass/contact.scss	/^	img { width: 100%; margin-top: auto; margin-bottom: auto;}$/;"	function	line:6
-div	/Users/soren/weroes/urban-jekyll-template/_sass/contact.scss	/^	div {$/;"	function	line:8
+section	/Users/soren/weroes/urban-jekyll-template/contact.html	/^<section class="diagonal">$/;"	function	line:12
+div	/Users/soren/weroes/urban-jekyll-template/contact.html	/^  <div class="container halves aligned-top">$/;"	function	line:13
+div	/Users/soren/weroes/urban-jekyll-template/contact.html	/^    <div>$/;"	function	line:14
+h	/Users/soren/weroes/urban-jekyll-template/contact.html	/^      <h3>Addresse<\/h3>$/;"	function	line:15
+address	/Users/soren/weroes/urban-jekyll-template/contact.html	/^      <address><a target="_blank" href="https:\/\/www.google.com\/maps\/place\/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}<\/a><\/address>$/;"	function	line:16
+div	/Users/soren/weroes/urban-jekyll-template/contact.html	/^    <div>$/;"	function	line:18
+h	/Users/soren/weroes/urban-jekyll-template/contact.html	/^      <h3>Email<\/h3>$/;"	function	line:19
+p	/Users/soren/weroes/urban-jekyll-template/contact.html	/^      <p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}<\/a><\/p>$/;"	function	line:20
+section	/Users/soren/weroes/urban-jekyll-template/contact.html	/^<section class="diagonal map">$/;"	function	line:25
+div	/Users/soren/weroes/urban-jekyll-template/contact.html	/^  <div>$/;"	function	line:26
+a	/Users/soren/weroes/urban-jekyll-template/contact.html	/^    <a href="https:\/\/goo.gl\/maps\/7KqEkJFB8SG2" target="_blank">$/;"	function	line:27
+img	/Users/soren/weroes/urban-jekyll-template/contact.html	/^      <img src="{{ site.baseurl }}\/images\/map-maagevej-20.png" \/>$/;"	function	line:28
