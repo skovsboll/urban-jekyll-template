@@ -47,6 +47,25 @@ Har arbejdet med mange brancher, f.eks.:
 
 ## Erhvervserfaringer
 
+### Ansættelser
+
+| Periode    |  |  |       |     |
+|---|---|---|
+| **okt 2018** | **NU**      |            | **weroes**  | **Software Engineer og ejer** - weroes bygger software. Simpelt. |
+| sep 2017  | okt 2018 | 1 år 2 m | Microsoft  | Software Engineering Manager, Visual Studio AppCenter |
+| maj 2016  | sep 2017  | 1 år 5 m | Microsoft  | Senior Software Engineer, Visual Studio AppCenter - komplet CI til mobil-app udviklere |
+|  | | |   | [Microsoft opkøber Xamarin] |
+| okt 2014 | maj 2016  | 1 år 8 m | Xamarin  | Developer på Xamarin Test Cloud - automatiseret UI testing i skyen |
+| nov 2011 | okt 2014 | 3 år       | Vertica  | Senior Developer - e-handels løsninger og føtex apps med 350.000+ downloads |
+| aug 2010 | nov 2011 | 1 år 3 m  | Vestas  | Application Developer med ansvar for UX og usability strategi |
+| apr 2004 | aug 2010 | 6 år 5 m  | Ditmer  | Software Development Consultant |
+| sep 2000 | apr 2004 | 3 år 7 m  | Cadpeople  | Web Developer |
+
+
+
+
+### Detaljeret projekterfaring
+
 ##### 12/2018 -> 1/2019
 Glutenberg : (prototype) app som hjælper med at identificere ingredienser, som personer med gluten-intolerans ikke kan tåle.
 

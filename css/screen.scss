@@ -33,3 +33,18 @@ $section-rotation: 5deg;
 @import "footer";
 @import "cloudcannon";
 @import "monokai";
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  margin-bottom: 50px;
+}
+
+table {
+  thead { text-align: left; }
+  td {
+    font-size: 1.0rem;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+}
