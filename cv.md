@@ -73,7 +73,7 @@ Glutenberg : (prototype) app som hjælper med at identificere ingredienser, som 
 
 Mobil app for weroes (eget firma)
 
-##### STACK: Ruby, Sinatra, Python, Swift, Keras, git
+Ruby, Sinatra, Python, Swift, Keras, git
 
 ---
 
@@ -81,14 +81,14 @@ Mobil app for weroes (eget firma)
 
 Konsulentbistand indenfor Machine Learning for BigData by InnovationLab (under NDA)
 
-##### STACK: Keras, Python, git
+Keras, Python, git
 
 ---
 
 ##### 11/2018 -> 12/2018
 Udvidelse til telefonsystem for Valeur Contact Center
 
-##### STACK: Ecmascript 2015, Ruby, Sinatra, SQL Server, git, Google Cloud, Docker
+Ecmascript 2015, Ruby, Sinatra, SQL Server, git, Google Cloud, Docker
 
 ---
 
@@ -99,7 +99,7 @@ Udvidelse til telefonsystem for Valeur Contact Center
 
 Website for weroes (eget firma)
 
-##### STACK: Ruby On Rails, Postgresql, Docker, git
+Ruby On Rails, Postgresql, Docker, git
 
 ---
 
@@ -113,9 +113,9 @@ Senior Software Engineering manager for et team på 6 software ingeniører, som 
 
 Udviklede *AutoProvisioning* feature til Visual Studio AppCenter. En ny feature, som gør det meget nemmere for app-udviklere at distribuere beta apps til testere.
 
-##### Roller: Lead developer i internationalt team på 5
+Roller: Lead developer i internationalt team på 5
 
-##### Stack: TypeScript, ReactJS, NodeJS, Azure, Ruby on Rails, Postgresql, Docker, git
+TypeScript, ReactJS, NodeJS, Azure, Ruby on Rails, Postgresql, Docker, git
 
 ---
 
@@ -124,54 +124,54 @@ Omskrev hele Xamarin Test Cloud frontend + API som komponent i Visual Studio App
 
 [![appcenter.ms](/images/clients/small/appcenter.png)](https://appcenter.ms)
 
-##### Roller: Arkitekt/udvikler for team på 5. Meget samarbejde med teams i Redmond og Seoul.
+Roller: Arkitekt/udvikler for team på 5. Meget samarbejde med teams i Redmond og Seoul.
 
-##### STACK: TypeScript, ReactJS, NodeJS, Azure, Ruby on Rails, Postgresql, Docker, git
+TypeScript, ReactJS, NodeJS, Azure, Ruby on Rails, Postgresql, Docker, git
 
 ---
 
 ##### 10/2015 - 5/2016
 Indbyggede understøttelse af Appium framework i Xamarin Test Cloud
 
-##### Roller: Lead developer i team på 3.
+Roller: Lead developer i team på 3.
 
-##### STACK: Java 7/8, Ruby on Rails, Postgresql, Angular, CoffeeScript, git
+Java 7/8, Ruby on Rails, Postgresql, Angular, CoffeeScript, git
 
 ---
 
 6/2015 - 12/2015
 Organisationer og Teams introduceret i Xamarin Test Cloud
 
-##### Roller: Lead developer i team på 4
+Roller: Lead developer i team på 4
 
-##### STACK: Ruby on Rails, Postgresql, Angular, CoffeeScript, AWS, git
+Ruby on Rails, Postgresql, Angular, CoffeeScript, AWS, git
 
 ---
 
 ##### 10/2014 - 5/2015
 REST API, SDK'er til forskellige programmeringssprog, dokumentaion
 
-##### Roller: Developer
+Roller: Developer
 
-##### STACK: Python, C#, Java, Ruby, git
+Python, C#, Java, Ruby, git
 
 ---
 
 ##### 5/2014 - 8/2014
 Bolia.com - videreudviklede diverse funktioner på en af Danmarks største webshops
 
-##### Roller: Developer i team på 7
+Roller: Developer i team på 7
 
-##### STACK: C#, SQL Server, Umbraco, Commerce Server, git
+C#, SQL Server, Umbraco, Commerce Server, git
 
 ---
 
 ##### 1/2014 - 8/2014
 Hofretter iOS/Android apps, del dine madplaner og få inspiration af andres
 
-##### Roller: Lead developer, team på tre
+Roller: Lead developer, team på tre
 
-##### STACK: RubyMotion, Java, git
+RubyMotion, Java, git
 
 ---
 
@@ -180,9 +180,9 @@ MinMorgen - iOS app som hjælper dit barn til en god morgen
 
 Mobil app
 
-##### Roller: Solo developer, eget produkt
+Roller: Solo developer, eget produkt
 
-##### STACK: RubyMotion, git
+RubyMotion, git
 
 
 ---
@@ -190,36 +190,36 @@ Mobil app
 ##### 12/2012 - 8/2014
 føtex madunivers til iOS for Dansk Supermarked
 
-##### Roller: Lead developer på team på tre
+Roller: Lead developer på team på tre
 
-##### STACK: Objective-C, SQL Server, git
+Objective-C, SQL Server, git
 
 ---
 
 ##### 12/2012 - 8/2014
 føtex indkøbshjælp mobil app til iOS og Android (300.000 downloads) for Dansk Supermarked
 
-##### Roller: Lead developer på team på tre
+Roller: Lead developer på team på tre
 
-##### STACK: Objective-C, Java, SQL Server, git
+Objective-C, Java, SQL Server, git
 
 ---
 
 ##### 4/2014 - 08/2014
 TCP til HTTP bridge for BaneDanmark, til lokalisering af lokoføreres kommunikationsudstyr.
 
-##### Roller: Developer
+Roller: Developer
 
-##### STACK: C#, Reactive Extensions, MS Biztalk, VSTS
+C#, Reactive Extensions, MS Biztalk, VSTS
 
 ---
 
 ##### 11/2011 - 4/2013
 spf.dk : nyt website til Svineproducentforeningen
 
-##### Roller: Lead developer på team på tre, kundekontakt
+Roller: Lead developer på team på tre, kundekontakt
 
-##### STACK: Oracle, C#, SQL Server, Umbraco, VSTS
+Oracle, C#, SQL Server, Umbraco, VSTS
 
 ---
 
@@ -231,7 +231,7 @@ Mentor/coach for 6 software engineers (MUS samtaler, evalueringer, karriererådg
 ##### 8/2010 - 11/2011
 Ansvarlig for at lave og udføre en usability strategi for interne software systemer i Vestas/IT/Group Staff
 
-##### STACK: Techsmith Morae
+Techsmith Morae
 
 ---
 
@@ -243,18 +243,18 @@ Co-host på den danskesprogede .NET podcast, ANUGCast, i årene 2006 - 2009. Int
 ##### 4/2004 - 8/2010
 Forskellige moduler til sagsbehandlingssystemet SBSYS for flere danske kommuner og regioner
 
-##### Roller: Developer i forskellige teams
+Roller: Developer i forskellige teams
 
-##### STACK: C#, VB.NET, SQL Server, VSTS
+C#, VB.NET, SQL Server, VSTS
 
 ---
 
 ##### 11/2007 - 8/2010
 videreuddannelsen.dk : Ansøgningssystem til speciallægeuddannelserne i Danmark for Danske Regioner
 
-##### Roller: Lead developer for team på to, kundekontakt
+Roller: Lead developer for team på to, kundekontakt
 
-##### STACK: C#, SQL Server, Javascript, jQuery, VSTS
+C#, SQL Server, Javascript, jQuery, VSTS
 
 ---
 
@@ -263,9 +263,9 @@ Billetbooking for AirAlpha -- helikopterflyvninger på Grønland, kortbetaling
 
 Web site og admin UI
 
-##### Roller: Lead developer for team på to, kundekontakt
+Roller: Lead developer for team på to, kundekontakt
 
-##### STACK: C#, SQL Server
+C#, SQL Server
 
 ---
 
@@ -274,9 +274,9 @@ Det Nationale Overvågningsprogram for Vandmiljø og Natur (NOVANA)
 
 Database + web ui
 
-##### Roller: Lead developer, kundekontakt
+Roller: Lead developer, kundekontakt
 
-##### STACK: C#, SQL Server
+C#, SQL Server
 
 ---
 
@@ -285,9 +285,9 @@ Matterhorn : komplet .NET O/R mapper brugt af mange teams i mange løsninger - l
 
 Library
 
-##### Roller: Lead developer
+Roller: Lead developer
 
-##### STACK: C#, SQL Server
+C#, SQL Server
 
 ---
 
@@ -296,9 +296,9 @@ Infobase : CMS brugt i mange af Cadpeople's løsninger - lead developer
 
 Library
 
-##### Roller: Lead developer
+Roller: Lead developer
 
-##### STACK: ASP, Javascript, SQL Server
+ASP, Javascript, SQL Server
 
 ---
 
@@ -307,20 +307,20 @@ Messestand-booking + standpladskort + udstilleroversigt for Messecenter Herning 
 
 Website + administrativt website
 
-##### Roller: Udvikler, kundekontakt
+Roller: Udvikler, kundekontakt
 
-##### STACK: ASP, Javascript, Flash, SQL Server
+ASP, Javascript, Flash, SQL Server
 
 ---
 
 ##### 9/2000 - 1/2002
 ahb.dk : Website for A Hereford Beefstouw, Bryggeriet, m.fl.
 
-Website for Aage Damgaard ApS
+Website 
 
-##### Roller: Udvikler, kundekontakt
+Roller: Udvikler, kundekontakt
 
-##### STACK: ASP, Javascript, SQL Server
+ASP, Javascript, SQL Server
 
 ---
 
@@ -329,9 +329,9 @@ E-handelssystem til toldfri medarbejderkøb ombord på to af Maerk Lines contain
 
 Terminal app
 
-##### Roller: Udvikler
+Roller: Udvikler
 
-##### STACK: Turbo Pascal 6/7
+Turbo Pascal 6/7
 
 
 ## Uddannelser, certificeringer og kurser
