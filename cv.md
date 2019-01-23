@@ -45,7 +45,7 @@ Har arbejdet med mange brancher, f.eks.:
 * Offentlig administration
 
 
-## Erhvervserfaringer
+## Erhvervserfaring
 
 ### Ansættelser
 
